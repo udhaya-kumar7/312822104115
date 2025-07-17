@@ -6,7 +6,7 @@ exports.shortenUrl = async (req, res) => {
 
   try {
     const response = await axios.post(
-      'https://example-external-api.com/shorten', // replace with actual API
+      'https://example-external-api.com/shorten', 
       { url: originalUrl },
       {
         headers: {
